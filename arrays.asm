@@ -14,7 +14,7 @@ include \masm32\include\masm32.inc
 
 .const
     ARRAY_SIZE             equ 10
-	prompt_element         db "Введите элемент массива: ", 0
+    prompt_element         db "Введите элемент массива: ", 0
     format                 db "%d", 0
 .data?
 	array                  dw ARRAY_SIZE dup(?)
